@@ -6,15 +6,15 @@
  * Задание 1. 
  */
 
-// function func(...arr) {
-//     const [first, ...argum] = arr;
-//     return {
-//         'first': first,
-//         'other': argum
-//     }
-// }
+function func(...arr) {
+    const [first, ...argum] = arr;
+    return {
+        'first': first,
+        'other': argum
+    }
+}
 
-// console.log(func('a', 'b', 'c', 'd'));
+console.log(func('a', 'b', 'c', 'd'));
 
 
 

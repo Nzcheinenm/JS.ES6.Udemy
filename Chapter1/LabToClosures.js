@@ -6,13 +6,13 @@
  * Задание 1. 
  */
 
-// function minus(num1 = 0) {
-//     return function(num2 = 0) {
-//         return num1 - num2;
-//     }
-// }
-// const min = minus(10)();
-// console.log(min);
+function minus(num1 = 0) {
+    return function(num2 = 0) {
+        return num1 - num2;
+    }
+}
+const min = minus(10)();
+console.log(min);
 
 
 
@@ -21,18 +21,18 @@
  * Задание 2. 
  */
 
-// function multiplyMaker(num1) {
-//     let rez = num1;
-//     return function(num2) {
-//         return rez = rez * num2;
-//     }
-// }
+function multiplyMaker(num1) {
+    let rez = num1;
+    return function(num2) {
+        return rez = rez * num2;
+    }
+}
 
-// const multi = multiplyMaker(2);
-// console.log(multi(2)); // 4
-// console.log(multi(1)); // 4
-// console.log(multi(3)); // 12
-// console.log(multi(10)); // 120
+const multi = multiplyMaker(2);
+console.log(multi(2)); // 4
+console.log(multi(1)); // 4
+console.log(multi(3)); // 12
+console.log(multi(10)); // 120
 
 
 
@@ -42,27 +42,27 @@
  * Задание 3. 
  */
 
-// const module = {
-//     str: "",
-//     setStr(arr = "") {
-//         this.str = arr;
-//     },
-//     getStr() {
-//         return this.str;
-//     },
-//     getLength() {
-//         return this.str.length;
-//     },
-//     getReverse() {
-//         return this.str.split("").reverse().join("");
-//     }
-// }
+const module = {
+    str: "",
+    setStr(arr = "") {
+        this.str = arr;
+    },
+    getStr() {
+        return this.str;
+    },
+    getLength() {
+        return this.str.length;
+    },
+    getReverse() {
+        return this.str.split("").reverse().join("");
+    }
+}
 
-// module.setStr('avdcd');
-// console.log(module.getStr());
-// console.log(module.getLength());
-// console.log(module.getReverse());
-// console.log(module.getStr());
+module.setStr('avdcd');
+console.log(module.getStr());
+console.log(module.getLength());
+console.log(module.getReverse());
+console.log(module.getStr());
 
 
 
