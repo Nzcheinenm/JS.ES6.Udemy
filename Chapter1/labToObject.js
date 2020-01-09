@@ -1,3 +1,7 @@
+/**
+ * ОБЬЕКТЫ.
+ */
+
 const value = {
     product: 'iphone'
 };

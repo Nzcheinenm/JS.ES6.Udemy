@@ -1,3 +1,8 @@
+/**
+ * ФУНКЦИИ ВЫСШЕГО ПОРЯДКА.
+ */
+
+
 // function firstFunc(arr, fn) {
 //     return "New value: " + fn(arr);
 // }
@@ -81,9 +86,9 @@ function every(fn, val, indx, arr) {
 function firstFunc(val, indx, arr) {
     if (arr[indx] === val) {
         if (val > 5) {
-            return 'Больше Пяти';
+            return true;
         } else {
-            return 'Меньше Пяти ли Пять';
+            return false;
         }
     } else {
         return 'Что то не так ввели';

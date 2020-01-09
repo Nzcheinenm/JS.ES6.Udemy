@@ -1,3 +1,8 @@
+/**
+ * МЕТОДЫ МАССИВОВ.
+ */
+
+
 // let arr = [1, 2, 3, 5, 8, 9, 10];
 // let arrNew = [];
 // arr.forEach((item) => {
@@ -88,6 +93,9 @@
 //     },
 // ]
 
+
+
+
 // const funcArr = (arr) => {
 //     let arrNull = [];
 //     const charObj = arr.reduce((acc, char) => {
@@ -103,6 +111,18 @@
 //     return str;
 // }
 
+
+
+// const funcArr = (arr) => {
+//     const copyArr = arr.slice();
+//     const sortedArr = copyArr.sort((prev, next) => prev.index - next.index);
+//     const strFromArr = sortedArr.reduce((acc, current) => {
+//         return (acc += current.char);
+//     }, '');
+//     return strFromArr;
+// }
+
+
 // console.log(funcArr(charInfo));
 
 
@@ -114,6 +134,7 @@
 // ];
 
 // let arr = [1, 2, 3];
+
 // const sortArray = arrArrays.sort((prev, next) =>
 //     prev.length - next.length);
 

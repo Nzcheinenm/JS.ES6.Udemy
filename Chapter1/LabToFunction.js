@@ -1,3 +1,7 @@
+/**
+ * ФУНКЦИИ.
+ */
+
 // function multiply(...arr) {
 //     if (!arr[0]) {
 //         console.log(0);

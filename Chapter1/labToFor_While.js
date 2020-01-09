@@ -1,3 +1,7 @@
+/**
+ * ЦИКЛЫ.
+ */
+
 let value = 'JavaScript is a pretty good language';
 let str = '';
 

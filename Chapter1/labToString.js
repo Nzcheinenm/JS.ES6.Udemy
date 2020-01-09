@@ -1,3 +1,7 @@
+/**
+ * СТРОКИ.
+ */
+
 let value = 'some test string';
 
 // value = value[0];

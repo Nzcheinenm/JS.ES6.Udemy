@@ -1,12 +1,16 @@
- sum = (...args) => {
-     const params = Array.prototype.slice.call(args);
+/**
+ * СТРЕЛОЧНЫЕ ФУНКЦИИ.
+ */
 
-     const arrReduce = (prev, next) => prev + next;
+sum = (...args) => {
+    const params = Array.prototype.slice.call(args);
 
-     if (!params.length) return 0;
+    const arrReduce = (prev, next) => prev + next;
 
-     return params.reduce(arrReduce);
+    if (!params.length) return 0;
 
- }
+    return params.reduce(arrReduce);
 
- console.log(sum(1, 2, 3, 4));
+}
+
+console.log(sum(1, 2, 3, 4));

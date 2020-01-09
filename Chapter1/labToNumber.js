@@ -1,3 +1,7 @@
+/**
+ * ЧИСЛА.
+ */
+
 let value;
 
 // value = parseFloat(Math.PI.toFixed(2));
