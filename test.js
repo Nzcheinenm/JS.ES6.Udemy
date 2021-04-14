@@ -547,4 +547,7 @@ console.log(user.tags[0] + " " + user.tags[user.tags.length - 1]);
 console.log(user.friends[0].name);
 
 // С помощью оператора rest, из объекта user (из предыдущей задачи) скопировать в новый массив значение следующих полей tags и friends.
+var arr = [];
+arr = [...user.tags,...user.friends];
+console.log(arr);
 
